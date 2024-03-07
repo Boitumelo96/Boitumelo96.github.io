@@ -82,3 +82,15 @@ footer {
 .button:hover {
     background-color: #0056b3;
 }
+.image {
+    max-width: 250px;
+    height: 40%;
+    margin-right: 20px; 
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
