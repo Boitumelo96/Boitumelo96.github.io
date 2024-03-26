@@ -4,6 +4,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: beige;
+    min-height: 100vh;
+    position: relative;
 }
 
 header {
@@ -63,7 +65,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
